@@ -2,7 +2,7 @@
 layout: page
 title: "Research"
 ---
-
+permalink:/research/https://mohamudsali.github.io/website/research/
 ## Research Interests
 
 - Topic 1: [Description]  

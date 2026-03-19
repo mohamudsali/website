@@ -2,7 +2,7 @@
 ---
 layout: default
 title: "Home"
-permalink: /
+permalink: /https://mohamudsali.github.io/website/
 ---
 # Welcome
 
