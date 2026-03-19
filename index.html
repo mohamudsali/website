@@ -1,12 +1,26 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">
 </head>
 <body>
-    <h>Mohamud Ali</h>
-    <p>I am a doctoral student in Electrical Engineering specializing in Compute-In-Memory and AI systems at The University of Minnesota-Twin Cities. I read my MS and BS both  in Electrical Engineering from Northwestern University at Evanston, IL and the University of Minnesota-Twin Cities, respectively.  </p>
+  <header>
+    <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+    <nav>
+      {% for item in site.nav %}
+        <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+      {% endfor %}
+    </nav>
+  </header>
+<h1>Mohamud Sahardid Ali</h1>
+  <main>
+    {{ content }}
+  </main>
+<p>I am a doctoral student in Electrical Engineering specializing in Compute-In-Memory and AI systems at The University of Minnesota-Twin Cities. I read my MS and BS both  in Electrical Engineering from Northwestern University at Evanston, IL and the University of Minnesota-Twin Cities, respectively.</p>
+  <footer>
+    <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
+  </footer>
 </body>
 </html>
