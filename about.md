@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "About"
-permalink: /about/
+permalink: https://mohamudsali.github.io/website/about/
 ---
 # About Me
 ...
