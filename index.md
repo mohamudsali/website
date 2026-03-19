@@ -1,18 +1,28 @@
 ---
----
 layout: default
 title: "Home"
-permalink: /https://mohamudsali.github.io/website/
+permalink: /
 ---
-# Welcome
 
-Hi, I'm **Mohamud Sali**, a PhD researcher in [Your Field].  
+# Mohamud Sali
 
-Explore my website:
+PhD Candidate in [Your Field]  
+Research interests: Machine Learning, AI, Data Science  
 
-- [About Me](/about/)
-- [Research](/research/)
-- [Publications](/publications/)
-- [Projects](/projects/)
-- [Contact](/contact/)
-- [CV](/cv.pdf)
+---
+
+## Welcome
+
+I am a PhD researcher focused on solving problems in [your area].  
+I am actively seeking research and faculty opportunities.
+
+---
+
+## Explore
+
+- [About Me](/website/about/)
+- [Research](/website/research/)
+- [Publications](/website/publications/)
+- [Projects](/website/projects/)
+- [Contact](/website/contact/)
+- [Download CV](/website/cv.pdf)

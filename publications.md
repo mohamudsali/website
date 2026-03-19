@@ -1,10 +1,14 @@
 ---
-layout: page
+layout: default
 title: "Publications"
+permalink: /publications/
 ---
-permalink:/publications/https://mohamudsali.github.io/website/publications/
-## Selected Publications
 
+## Publications
+
+1. Your Name, *Paper Title*, Journal, Year  
+2. Your Name, *Paper Title*, Conference, Year 
+## Selected Publications
 1. Mohamud Sali et al., **"Title of Paper"**, *Journal Name*, Year. [DOI](#)  
 2. Mohamud Sali et al., **"Title of Paper"**, *Conference Name*, Year. [PDF](#)  
 

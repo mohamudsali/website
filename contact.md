@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: default
 title: "Contact"
+permalink: /contact/
 ---
-permalink:/contact/https://mohamudsali.github.io/website/contact/
-You can reach me at **alim5@mit.edu**.
-
-Or connect via: [LinkedIn](#), [Google Scholar](#)
+## Contact
+Email: your@email.com  
+LinkedIn: https://linkedin.com  
+Google Scholar: https://scholar.google.com 

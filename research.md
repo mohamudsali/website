@@ -1,14 +1,16 @@
 ---
-layout: page
+layout: default
 title: "Research"
+permalink: /research/
 ---
-permalink:/research/https://mohamudsali.github.io/website/research/
+
 ## Research Interests
 
-- Topic 1: [Description]  
-- Topic 2: [Description]  
-- Topic 3: [Description]
+- Machine Learning for Computing
+- Artificial Intelligence and Systems  
+- Neuromorphic Computing 
 
 ### Current Projects
-- **Project A:** Short description  
-- **Project B:** Short description
+
+- **Project A:** Description  
+- **Project B:** Description
