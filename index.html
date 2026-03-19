@@ -2,10 +2,79 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }} | {{ site.title }}</title>
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+  <style>
+    body {
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      max-width: 1000px;
+      margin: auto;
+      padding: 1rem;
+      line-height: 1.6;
+      color: #222;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+
+    header h1 a {
+      text-decoration: none;
+      color: #0366d6;
+    }
+
+    nav a {
+      margin-left: 1rem;
+      text-decoration: none;
+      color: #0366d6;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.85rem;
+      text-align: center;
+      color: #555;
+    }
+
+    .homepage-sections {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    .section-card {
+      flex: 1 1 250px;
+      padding: 1rem;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      text-align: center;
+      transition: all 0.2s ease;
+    }
+
+    .section-card:hover {
+      background-color: #f5f5f5;
+      transform: translateY(-2px);
+    }
+
+    .section-card a {
+      text-decoration: none;
+      color: #0366d6;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
+
+  <!-- Header with Navigation -->
   <header>
     <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
     <nav>
@@ -14,13 +83,41 @@
       {% endfor %}
     </nav>
   </header>
-<h1>Mohamud Sahardid Ali</h1>
+
+  <!-- Page Content -->
   <main>
     {{ content }}
+
+    {% if page.url == "/" %}
+    <!-- Only on homepage: show sections -->
+    <div class="homepage-sections">
+      <div class="section-card">
+        <a href="{{ site.baseurl }}/about/">About Me</a>
+      </div>
+      <div class="section-card">
+        <a href="{{ site.baseurl }}/research/">Research</a>
+      </div>
+      <div class="section-card">
+        <a href="{{ site.baseurl }}/publications/">Publications</a>
+      </div>
+      <div class="section-card">
+        <a href="{{ site.baseurl }}/projects/">Projects</a>
+      </div>
+      <div class="section-card">
+        <a href="{{ site.baseurl }}/contact/">Contact</a>
+      </div>
+      <div class="section-card">
+        <a href="{{ site.baseurl }}/cv.pdf">Download CV</a>
+      </div>
+    </div>
+    {% endif %}
+
   </main>
-<p>I am a doctoral student in Electrical Engineering specializing in Compute-In-Memory and AI systems at The University of Minnesota-Twin Cities. I read my MS and BS both  in Electrical Engineering from Northwestern University at Evanston, IL and the University of Minnesota-Twin Cities, respectively.</p>
+
+  <!-- Footer -->
   <footer>
-    <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
+    <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }} | Built with Jekyll</p>
   </footer>
+
 </body>
 </html>

@@ -1,23 +1,15 @@
-title: "Mohamud Sahardid Ali"
-email: "alim5@mit.edu"
-description: "PhD Student | Researcher | IBM Quantum"
-baseurl: "" # for GitHub Pages
-url: "https://mohamudsali.github.io/website"
-theme: jekyll-theme-cayman # minimal, clean
-
-# Navigation
 nav:
   - title: "Home"
     url: "/"
   - title: "About"
-    url: "/about"
+    url: "/about/"
   - title: "Research"
-    url: "/research"
+    url: "/research/"
   - title: "Publications"
-    url: "/publications"
+    url: "/publications/"
   - title: "Projects"
-    url: "/projects"
+    url: "/projects/"
+  - title: "Contact"
+    url: "/contact/"
   - title: "CV"
     url: "/cv.pdf"
-  - title: "Contact"
-    url: "/contact"
