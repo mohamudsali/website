@@ -20,9 +20,9 @@ I am actively seeking research and faculty opportunities.
 
 ## Explore
 
-- [About Me](/website/about/)
-- [Research](/website/research/)
-- [Publications](/website/publications/)
-- [Projects](/website/projects/)
-- [Contact](/website/contact/)
-- [Download CV](/website/cv.pdf)
+- [About Me](/site.baseurl/about/)
+- [Research](/site.baseurl/research/)
+- [Publications](/site.baseurl/publications/)
+- [Projects](/site.baseurl/projects/)
+- [Contact](/site.baseurl/contact/)
+- [Download CV](/site.baseurl/cv.pdf)
